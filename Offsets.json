@@ -1,0 +1,31 @@
+{
+  "client_dll": {
+    "dwEntityList": "0x24D0DC0",
+    "dwLocalPlayerPawn": "0x2056700",
+    "dwViewMatrix": "0x2330AE0",
+    "dwLocalPlayerController": "0x230A4F0",
+    "dwViewAngles": "0x2340288",
+    "dwPlantedC4": "0x2338A68",
+    "dwForceJump": "0x204FEA0",
+    "dwForceAttack": "0x204F990"
+  },
+  "client_dll_members": {
+    "m_hPlayerPawn": "0x90C",
+    "m_sSanitizedPlayerName": "0x860",
+    "m_bPawnIsAlive": "0x914",
+    "m_iIDEntIndex": "0x344C",
+    "m_iHealth": "0x34C",
+    "m_iTeamNum": "0x3EB",
+    "m_pGameSceneNode": "0x330",
+    "m_modelState": "0x170",
+    "m_iShotsFired": "0x22B4",
+    "m_vOldOrigin": "0x1274",
+    "m_fFlags": "0x3F4",
+    "m_vecViewOffset": "0xC58",
+    "m_pCameraServices": "0x1138",
+    "m_iFOV": "0x210",
+    "m_pAimPunchServices": "0x1178",
+    "m_aimPunchAngle": "0x174",
+    "m_flFlashDuration": "0x135C"
+  }
+}
