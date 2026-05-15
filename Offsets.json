@@ -1,45 +1,89 @@
 {
+  "meta": {
+    "generated_by": "cs2-dumper",
+    "dump_date": "2026-05-15",
+    "note": "All offsets verified against client_dll.hpp + buttons.hpp + server_dll.hpp"
+  },
   "client_dll": {
-    "dwEntityList": "0x24D0DC0",
-    "dwLocalPlayerPawn": "0x2056700",
-    "dwViewMatrix": "0x2330AE0",
-    "dwLocalPlayerController": "0x230A4F0",
-    "dwViewAngles": "0x2340288",
-    "dwPlantedC4": "0x2338A68",
-    "dwForceJump": "0x204FEA0",
-    "dwForceAttack": "0x204F990"
+    "dwEntityList":            "0x24D4E80",
+    "dwLocalPlayerPawn":       "0x205A700",
+    "dwViewMatrix":            "0x2334850",
+    "dwLocalPlayerController": "0x230E5C0",
+    "dwViewAngles":            "0x23444F8",
+    "dwPlantedC4":             "0x233D168",
+    "dwForceJump":             "0x2053EA0",
+    "dwForceAttack":           "0x2053990",
+    "dwGlobalVars":            "0x204F600"
+  },
+  "engine2_dll": {
+    "dwNetworkGameClient":              "0x90A1A0",
+    "dwNetworkGameClient_deltaTick":    "0x24C"
   },
   "client_dll_members": {
-    "m_hPlayerPawn": "0x90C",
+    "// --- C_BaseEntity ---": "",
+    "m_iHealth":              "0x34C",
+    "m_iTeamNum":             "0x3EB",
+    "m_pGameSceneNode":       "0x330",
+    "m_fFlags":               "0x3F8",
+    "m_hOwnerEntity":         "0x520",
+
+    "// --- C_BaseModelEntity ---": "",
+    "m_Glow":                 "0xDD8",
+    "m_vecViewOffset":        "0xE70",
+
+    "// --- CGameSceneNode ---": "",
+    "m_vecAbsOrigin":         "0xC8",
+    "m_modelState":           "0x150",
+    "m_BoneArray":            "0x80",
+
+    "// --- CBasePlayerController ---": "",
+    "m_hPawn":                "0x6BC",
+
+    "// --- CCSPlayerController (server-side, stable values) ---": "",
+    "m_hPlayerPawn":          "0x90C",
+    "m_bPawnIsAlive":         "0x914",
     "m_sSanitizedPlayerName": "0x860",
-    "m_iHealth": "0x34C",
-    "m_iTeamNum": "0x3EB",
-    "m_pGameSceneNode": "0x330",
-    "m_modelState": "0x150",
-    "m_Glow": "0xDD8",
-    "m_iShotsFired": "0x1C64",
-    "m_vOldOrigin": "0x1390",
-    "m_bPawnIsAlive": "0x914",
-    "m_fFlags": "0x3F8",
-    "m_vecViewOffset": "0xE70",
-    "m_iIDEntIndex": "0x344C",
-    "m_pCameraServices": "0x1218",
-    "m_iFOV": "0x290",
-    "m_pAimPunchServices": "0x1490",
-    "m_aimPunchAngle": "0x50",
-    "m_flFlashDuration": "0x1400",
-    
-    "//": "--- OFFSETS SKINCHANGER (MAY 2026) ---",
-    "m_pWeaponServices": "0x11E0",
-    "m_hMyWeapons": "0x48",
-    "m_hActiveWeapon": "0x60",
-    "m_AttributeManager": "0x1180",
-    "m_Item": "0x50",
+
+    "// --- C_BasePlayerPawn ---": "",
+    "m_pWeaponServices":      "0x11E0",
+    "m_pCameraServices":      "0x1218",
+    "m_pAimPunchServices":    "0x1490",
+    "m_pViewModelServices":   "0x1368",
+
+    "// --- C_CSPlayerPawnBase ---": "",
+    "m_iShotsFired":          "0x1C64",
+    "m_angEyeAngles":         "0x3370",
+    "m_iIDEntIndex":          "0x344C",
+    "m_flFlashDuration":      "0x1400",
+    "m_vOldOrigin":           "0x1390",
+
+    "// --- CCSPlayer_AimPunchServices ---": "",
+    "m_aimPunchAngle":        "0x50",
+
+    "// --- CPlayer_WeaponServices ---": "",
+    "m_hMyWeapons":           "0x48",
+    "m_hActiveWeapon":        "0x60",
+
+    "// --- C_EconEntity ---": "",
+    "m_bAttributesInitialized": "0x1178",
+    "m_AttributeManager":     "0x1180",
+    "m_OriginalOwnerXuidLow": "0x1650",
+    "m_nFallbackPaintKit":    "0x1658",
+    "m_nFallbackSeed":        "0x165C",
+    "m_flFallbackWear":       "0x1660",
+    "m_nFallbackStatTrak":    "0x1664",
+
+    "// --- CEconItemView (within AttributeManager.m_Item @ +0x50) ---": "",
+    "m_Item":                 "0x50",
     "m_iItemDefinitionIndex": "0x1BA",
-    "m_iItemIDHigh": "0x1D0",
-    "m_nFallbackPaintKit": "0x1658",
-    "m_nFallbackSeed": "0x165C",
-    "m_flFallbackWear": "0x1660",
-    "m_nFallbackStatTrak": "0x1664"
+    "m_iItemIDHigh":          "0x1D0",
+    "m_iItemIDLow":           "0x1D4",
+    "m_iAccountID":           "0x1D8",
+
+    "// --- CCSPlayer_CameraServices ---": "",
+    "m_iFOV":                 "0x290",
+
+    "// --- CPlayer_ViewModelServices ---": "",
+    "m_hViewModel":           "0x40"
   }
 }
