@@ -1,19 +1,19 @@
 {
   "meta": {
     "generated_by": "cs2-dumper",
-    "dump_date": "2026-05-22",
+    "dump_date": "2026-05-26",
     "note": "All offsets updated and verified against local output files"
   },
   "client_dll": {
-    "dwEntityList":            "0x250C5B0",
-    "dwLocalPlayerPawn":       "0x2090880",
-    "dwViewMatrix":            "0x236C2F0",
-    "dwLocalPlayerController": "0x2345D50",
-    "dwViewAngles":            "0x237BC38",
-    "dwPlantedC4":             "0x2374278",
-    "dwForceJump":             "0x208A020",
-    "dwForceAttack":           "0x2089B10",
-    "dwGlobalVars":            "0x2085788"
+    "dwEntityList":            "0x24E44E0",
+    "dwLocalPlayerPawn":       "0x2069800",
+    "dwViewMatrix":            "0x2343AB0",
+    "dwLocalPlayerController": "0x231D830",
+    "dwViewAngles":            "0x2353818",
+    "dwPlantedC4":             "0x234CF08",
+    "dwForceJump":             "0x2062FA0",
+    "dwForceAttack":           "0x2062A90",
+    "dwGlobalVars":            "0x205E6D0"
   },
   "engine2_dll": {
     "dwNetworkGameClient":              "0x90A1A0",
@@ -26,44 +26,35 @@
     "m_pGameSceneNode":       "0x330",
     "m_fFlags":               "0x3F8",
     "m_hOwnerEntity":         "0x520",
-
     "// --- C_BaseModelEntity ---": "",
     "m_Glow":                 "0xDD8",
     "m_vecViewOffset":        "0xE70",
-
     "// --- CGameSceneNode ---": "",
     "m_vecAbsOrigin":         "0xC8",
     "m_modelState":           "0x150",
     "m_BoneArray":            "0x80",
-
     "// --- CBasePlayerController ---": "",
     "m_hPawn":                "0x6BC",
-
     "// --- CCSPlayerController (server-side, stable values) ---": "",
     "m_hPlayerPawn":          "0x90C",
     "m_bPawnIsAlive":         "0x914",
     "m_sSanitizedPlayerName": "0x860",
-
     "// --- C_BasePlayerPawn ---": "",
     "m_pWeaponServices":      "0x11E0",
     "m_pCameraServices":      "0x1218",
     "m_pAimPunchServices":    "0x1490",
     "m_pViewModelServices":   "0x1368",
-
     "// --- C_CSPlayerPawnBase ---": "",
     "m_iShotsFired":          "0x1C64",
     "m_angEyeAngles":         "0x3320",
     "m_iIDEntIndex":          "0x33FC",
     "m_flFlashDuration":      "0x1400",
     "m_vOldOrigin":           "0x1390",
-
     "// --- CCSPlayer_AimPunchServices ---": "",
     "m_aimPunchAngle":        "0x50",
-
     "// --- CPlayer_WeaponServices ---": "",
     "m_hMyWeapons":           "0x48",
     "m_hActiveWeapon":        "0x60",
-
     "// --- C_EconEntity ---": "",
     "m_bAttributesInitialized": "0x1178",
     "m_AttributeManager":     "0x1180",
@@ -72,17 +63,14 @@
     "m_nFallbackSeed":        "0x165C",
     "m_flFallbackWear":       "0x1660",
     "m_nFallbackStatTrak":    "0x1664",
-
     "// --- CEconItemView (within AttributeManager.m_Item @ +0x50) ---": "",
     "m_Item":                 "0x50",
     "m_iItemDefinitionIndex": "0x1BA",
     "m_iItemIDHigh":          "0x1D0",
     "m_iItemIDLow":           "0x1D4",
     "m_iAccountID":           "0x1D8",
-
     "// --- CCSPlayer_CameraServices ---": "",
     "m_iFOV":                 "0x290",
-
     "// --- CPlayer_ViewModelServices ---": "",
     "m_hViewModel":           "0x40"
   }
